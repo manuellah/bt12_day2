@@ -21,8 +21,8 @@ def weather_checker(city):
     
     
 def main():
-    dot = '--' * 30
-    eqs = '==' * 30
+    dot = '--' * 35
+    eqs = '==' * 35
     sign = u'\xb0'
     spacing = '\n\n\t'
     
@@ -31,7 +31,7 @@ def main():
     output = "{} The Current Tempuratures are {} Celcius, Humidity {}% and Pressure {}hPa".format(spacing, *weather_checker(city))
     print output.upper()
     
-    print "{} {} Welcome Again\n\n".format(eqs, spacing)
+    print "{} {} \tWELCOME AGAIN\n\n".format(eqs, spacing)
 
     
 if __name__ == '__main__':    
